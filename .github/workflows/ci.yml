@@ -24,4 +24,4 @@ jobs:
         cache: 'npm'
     - name: Build and push
       run: node -v
-    - run: echo $NVM_DIR
+    - run: $NVM_DIR i
