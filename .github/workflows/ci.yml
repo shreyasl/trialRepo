@@ -24,4 +24,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Build and push
-      uses: alexthemaster/action-build-typescript@1.2.1
+      uses: alexthemaster/action-build-typescript@v1.2.1
